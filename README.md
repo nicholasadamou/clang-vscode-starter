@@ -34,19 +34,20 @@ Provided you have installed XCode in the default location (i.e. `/Applications`)
 2. In VS Code:
 
    2.1 Open the local folder.
-   It'll be called vscode-mac-c-example-master if you've cloned it, or vscode-mac-c-example if you used git clone
+   It'll be called `clang-vscode-starter-master` if you've cloned it, or `clang-vscode-starter` if you used git clone
 
-   2.2 Open the file helloworld.c
-   I told you it was simple...
+   2.2 Open the file `helloworld.c`
 
-   2.3 Set a breakpoint on one of the lines (by clicking to the left of one of the line numbers)
+   2.3 Set a breakpoint on one of the lines (by clicking to the left of one of the line numbers).
 
-   2.4 Click on the "Debug" symbol on the left (or Cmd+Shift+D)
+   2.4 Click on the "Debug" symbol on the left (or Cmd+Shift+D).
 
-   2.5 Click on the green triangle (i.e. start debugging)
-   The program should build, run in the debugger and stop at your breakpoint with the debug console showing.
+   2.5 Click on the green triangle (i.e. start debugging).
+
+   The program should build and run in the debugger and stop at your breakpoint with the debug console showing.
 
    2.6 Use the debug control (at the top) to step / run in the debugger.
+
    The debug console should show the program's output, like this:
 
    ```
@@ -54,5 +55,4 @@ Provided you have installed XCode in the default location (i.e. `/Applications`)
    @"(i should be 4321) i = 4321\r\n"
    ```
 
-   ⚠️Note that the format of the output is weird (spurious `@`, `\r` and `\n` characters).
-   It's probably a `cpptools` bug/feature.
+   ⚠️**Note** that the format of the output is weird (spurious `@`, `\r` and `\n` characters). It's probably a `cpptools` bug/feature.
