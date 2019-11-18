@@ -1,14 +1,10 @@
 /*
-
-
-
 */
 
 #include <stdio.h>
 
 int main()
 {
-
 	int i = 1234;
 
 	i = i + 1;
