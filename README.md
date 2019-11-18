@@ -10,7 +10,8 @@ So I created one.
 ## Requirements
 
 XCode and the developer command-line tools.
-This project assumes that you already have XCode installed.
+
+⚠️**Note**: This project assumes that you already have XCode installed.
 
 Why? Well, if you're developing on a Mac you'll need XCode, if only for the macOS SDK and C/C++ header files/libraries.
 
